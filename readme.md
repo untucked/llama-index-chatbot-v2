@@ -11,7 +11,8 @@
 The **Llama Index Chatbot App (v2)** is a Python-based application that enables interactive conversations with multiple PDF documents. Users can pose questions in natural language, and the chatbot provides relevant answers derived from the content of the loaded PDFs. This tool leverages advanced language models to ensure accurate and contextually appropriate responses. Note that the chatbot's knowledge is confined to the uploaded documents.
 Differences from v1:
 - **Saved chat history** Save chat history using llama_index SimpleChatStore 
-- **Load preloaded Indexes** Save the prior loaded index values 
+- **Load preloaded Indexes** Save the prior loaded index values
+ 
 Goals for v3:
 - **Make sure the embedded model is the same as the prior index** having a differenct embedded model would throw an error
 - **Clear Index and reload documents** Save the prior loaded index values 
